@@ -1,0 +1,29 @@
+.section02 {
+  padding: 5rem 0;
+  background: url("../../public/main-sec02-bg.jpg") no-repeat 50% 90%;
+}
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+.section02 ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.section02 ul li {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  display: grid;
+  gap: 1rem;
+}
+.section02 ul li .item {
+  display: flex;
+  justify-content: space-between;
+}
+.section03 {
+  background-color: #615e4e;
+}

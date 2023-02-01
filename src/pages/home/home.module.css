@@ -1,0 +1,39 @@
+.section01 {
+  padding: 5rem 0;
+}
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.card {
+  background: linear-gradient(45deg, #fdf5f1, #fffcf8);
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.cardTitle {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.cardIntro {
+  color: #666;
+  padding-bottom: 1rem;
+  border-bottom: 0.1rem solid #f6efeb;
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+}
+.cardContent {
+  line-height: 2rem;
+  font-size: 1.4rem;
+}
+
+.section02 {
+  padding: 5rem 0;
+  background-color: #eee;
+}

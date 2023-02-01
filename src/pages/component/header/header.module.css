@@ -1,0 +1,46 @@
+.header {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+.header .logo {
+  height: 5rem;
+  position: relative;
+  margin-right: 5rem;
+}
+.header .logo img {
+  width: auto !important;
+  object-fit: contain;
+}
+.header .navigation {
+  font-size: 2rem;
+  display: flex;
+  gap: 1rem;
+  height: 100%;
+}
+.header .navigation a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+.header .navigation a:hover {
+  font-weight: 500;
+  color: #222;
+}
+.header .navigation a::after {
+  content: "";
+  width: 0;
+  transition: width 0.5s;
+  background-color: #c1160e;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.header .navigation a:hover::after {
+  content: "";
+  width: 100%;
+  height: 0.3rem;
+}

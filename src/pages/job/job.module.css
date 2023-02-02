@@ -1,0 +1,36 @@
+.section1 {
+  padding: 5rem 0;
+}
+.section1 li {
+  padding: 2rem;
+  background-color: #fbfbfb;
+}
+.section1 li:nth-child(2n-1) {
+  background: #f6f6f6;
+}
+.card {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.card .cardInfo p {
+  margin-top: 1rem;
+}
+.card .favoriteBtn {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+.card .favoriteBtnActive {
+  border: 1px solid #ffe0e0;
+  background-color: #ffe9e9;
+}
+.card .favoriteBtn img {
+  width: 1.5rem;
+}

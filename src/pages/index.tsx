@@ -18,7 +18,6 @@ interface JobInterface<T> {
   map(arg0: (post: any) => void): import("react").ReactNode;
   data: any;
   [key: number]: T;
-  // [index: number]: number;
 }
 
 export async function getStaticProps() {
@@ -47,7 +46,7 @@ export default function App({ allPostsData }: { allPostsData: JobInterface<numbe
   const mappingArray = allPostsData;
 
   let test: any = chunk(mappingArray, 4);
-  console.log(test);
+  // console.log(test);
 
   return (
     <>
@@ -69,10 +68,9 @@ export default function App({ allPostsData }: { allPostsData: JobInterface<numbe
             <ul>
               <li>
                 {test[0].map((item: any, i: number) => {
-                  console.log(item);
                   return (
                     <div className={styles.item} key={item.id}>
-                      <Link href={`/job/${item.id}`}>{item.title}</Link>
+                      <Link href={`/notice/${item.id}`}>{item.title}</Link>
                       <span>{item.date}</span>
                     </div>
                   );
@@ -80,10 +78,9 @@ export default function App({ allPostsData }: { allPostsData: JobInterface<numbe
               </li>
               <li>
                 {test[1].map((item: any, i: number) => {
-                  console.log(item);
                   return (
                     <div className={styles.item} key={item.id}>
-                      <Link href={`/job/${item.id}`}>{item.title}</Link>
+                      <Link href={`/notice/${item.id}`}>{item.title}</Link>
                       <span>{item.date}</span>
                     </div>
                   );
@@ -92,9 +89,7 @@ export default function App({ allPostsData }: { allPostsData: JobInterface<numbe
             </ul>
           </Layout>
         </section>
-        <section className={styles.section03}>
-          <Footer />
-        </section>
+        <Footer />
       </main>
     </>
   );

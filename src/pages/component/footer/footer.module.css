@@ -1,6 +1,12 @@
 .footer {
   padding: 2rem 0;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
 }
 .footer p {
-  color: #fff;
+  color: #e1e0d6;
+}
+.section03 {
+  background-color: #615e4e;
 }

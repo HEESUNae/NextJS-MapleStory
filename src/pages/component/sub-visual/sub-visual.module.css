@@ -1,0 +1,19 @@
+.subVisual {
+  height: 20rem;
+  background: url("../../../../public/sub-visual.jpg") no-repeat 0 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2rem;
+}
+.subVisual p {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.subVisual p:nth-child(2) {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #ddd;
+}

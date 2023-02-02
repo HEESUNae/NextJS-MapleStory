@@ -14,8 +14,8 @@ export default function Header() {
           </Link>
         </div>
         <nav className={styles.navigation}>
-          <Link href="/">직업소개</Link>
-          <Link href="/">공지사항</Link>
+          <Link href="/job/job">직업소개</Link>
+          <Link href="/notice/notice">공지사항</Link>
         </nav>
       </header>
     </>

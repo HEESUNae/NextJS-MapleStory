@@ -19,11 +19,9 @@
   padding: 2rem;
   display: grid;
   gap: 1rem;
+  background: repeating-linear-gradient(30deg, white, #f7f7f7 101px);
 }
 .section02 ul li .item {
   display: flex;
   justify-content: space-between;
-}
-.section03 {
-  background-color: #615e4e;
 }

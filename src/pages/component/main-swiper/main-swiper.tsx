@@ -9,9 +9,6 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectFade, Autoplay, Pagination, Navigation } from "swiper";
 
-import Banner01 from "../../../../public/banner01.jpg";
-import Banner02 from "../../../../public/banner02.jpg";
-
 export default function MainSwiper() {
   return (
     <>
@@ -33,10 +30,10 @@ export default function MainSwiper() {
         // style={swiperStyle}
       >
         <SwiperSlide>
-          <Image src={Banner01} alt="" />
+          <Image src="/banner01.jpg" fill alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={Banner02} alt="" />
+          <Image src="/banner02.jpg" fill alt="" />
         </SwiperSlide>
       </Swiper>
     </>

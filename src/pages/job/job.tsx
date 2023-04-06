@@ -43,7 +43,7 @@ export default function Job() {
                           setFavoriteCount(copy);
                         }}
                       >
-                        <Image src={`/hart-ico.svg`} layout="intrinsic" width={10} height={10} alt={""} />
+                        <Image src="/hart-ico.svg" layout="intrinsic" width={10} height={10} alt={""} />
                         <span>{favoriteCount[i]}</span>
                       </button>
                     </div>

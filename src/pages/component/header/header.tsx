@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../../../public/maplestory-logo.png";
 
 import styles from "./header.module.css";
 
@@ -10,7 +9,7 @@ export default function Header() {
       <header className={styles.header}>
         <div className={styles.logo}>
           <Link href={"/"}>
-            <Image src={logo} fill alt={"mapleStory logo"}></Image>
+            <Image src="/maplestory-logo.png" fill alt={"mapleStory logo"}></Image>
           </Link>
         </div>
         <nav className={styles.navigation}>

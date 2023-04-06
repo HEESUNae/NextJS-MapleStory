@@ -1,12 +1,13 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  // basePath: "/NextJS-MapleStory",
+  basePath: "/NextJS-MapleStory",
   reactStrictMode: true,
-  // images: {
-  //   loader: "imgix",
-  //   path: "http://heesunae.github.io/NextJS-MapleStory/",
-  // },
+  images: {
+    domains: ["heesunae.github.io"],
+    loader: "imgix",
+    path: "http://heesunae.github.io/NextJS-MapleStory/",
+  },
 };
 
 module.exports = nextConfig;
